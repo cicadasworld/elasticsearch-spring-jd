@@ -8,10 +8,6 @@ import lombok.Data;
 @Data
 @Document(indexName = "jd_goods")
 public class Content {
-
-    @Id
-    private Long id;
-
     private String title;
     private String img;
     private String price;
